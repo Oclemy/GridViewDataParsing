@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- Our ContentMain.xml.
+- Inflated into MainActivity.
+- Contains our first GridView that shall show our data. Once a button is clicked we'll send that data to another gridview in secondactivity.
+-->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -11,12 +16,9 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.tutorials.hp.gridviewdataparsing.MainActivity"
     tools:showIn="@layout/activity_main">
-
-
     <GridView
         android:id="@+id/firstGV"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:numColumns="2"
-        />
+        android:numColumns="2"/>
 </RelativeLayout>
